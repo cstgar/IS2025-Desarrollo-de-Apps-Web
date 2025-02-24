@@ -1,0 +1,36 @@
+section {
+    background-color: rgb(241, 237, 26);
+}
+h4 {
+    color: rgb(104, 12, 233);
+}
+#externalParagraph {
+    color: rgb(21, 215, 202);
+}
+
+h5 {
+    color: rgb(241, 12, 214);
+    font-family: verdana;
+    font-size: 300%;
+}
+
+#ejColorFontFamFontSize {
+    color: rgb(235, 128, 13);
+    font-family: courier;
+    font-size: 160%;
+    border: 2px solid rgb(23, 8, 222);
+}
+
+#ejPading {
+    border: 5px solid rgb(3, 146, 165);
+    padding: 30px; 
+    color: brown;
+    background-color: rgb(21, 215, 202);
+}
+
+#ejMargin {
+    border: 5px solid rgb(200, 240, 4);
+    color: rgb(227, 11, 195);
+    background-color: rgb(236, 218, 126);
+    margin: 50px;
+}

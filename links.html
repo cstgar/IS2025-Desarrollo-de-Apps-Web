@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tema LINKS</title>
+</head>
+<body>
+    <!--HTML Links -->
+    <!--Links are found in nearly all web pages. Links allow users to click their way from page to page.
+    HTML Links - Hyperlinks
+    HTML links are hyperlinks.
+    You can click on a link and jump to another document.
+    When you move the mouse over a link, the mouse arrow will turn into a little hand.
+    Note: A link does not have to be text. A link can be an image or any other HTML element!
+    -->
+    <!--HTML Links - Syntax -->
+    <!--The HTML <a> tag defines a hyperlink. It has the following syntax:
+        <a href="url">link text</a>
+    The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+
+    The link text is the part that will be visible to the reader.
+    Clicking on the link text, will send the reader to the specified URL address.
+    Example: This example shows how to create a link to W3Schools.com:
+        -->
+    <p><a href="https://github.com/cstgar">Visita csgar github</a></p>
+    
+
+
+    <!--Poe default links aparecen de la siguiente manera en los navegadores
+     - Cuando es un link no visitado de color azul
+     - Cuando es un link visitado de color morado
+     - Cuando es un link activo de color rojo
+
+     Tips: Links se pueden estilizar para que tengan otra apariencia!
+     Algunos atributos importantes de los links
+    -->
+
+
+    <!--HTML Links - The target Attribute-->
+    <!--By default, the linked page will be displayed in the current browser window. 
+    To change this, you must specify another target for the link.
+    The target attribute specifies where to open the linked document.
+    The target attribute can have one of the following values:    
+    _self - Default. Opens the document in the same window/tab as it was clicked
+    _blank - Opens the document in a new window or tab
+    _parent - Opens the document in the parent frame
+    _top - Opens the document in the full body of the window
+   -->
+    <hr>
+    <h2>The target Attribute</h2>
+    <a href="https://github.com/cstgar" target="_blank">Visita mi cuenta de GITHUB!</a> 
+    <p>If target="_blank", the link will open in a new browser window or tab.</p>
+        
+
+    <!--Absolute URLs vs Relative URLs-->
+    <!-- Both examples above are using an absolute URL (a full web address) 
+     in the href attribute.
+     A local link (a link to a page within the same website) 
+     is specified with a relative URL (without the "https://www" part): -->
+     <h2>Absolute URLs</h2>
+     <p><a href="https://www.w3.org/" target="_blank">W3C</a></p>
+     <p><a href="https://www.google.com/" target="_blank">Google</a></p>
+     
+     <h2>Relative URLs</h2>
+     <p><a href="html_images.asp">HTML Images</a></p>
+     <p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+
+     <!--HTML Links - Use an Image as a Link-->
+     <!--To use an image as a link, just put the <img> tag inside the <a> tag:-->
+    <a href="https://github.com/cstgar">
+        <img src="https://i.imgur.com/YgXkfBy.jpeg" alt="Ejemplo Image as a link" style="width:42px;height:42px;">
+    </a>
+
+
+    <!--Link to an email-->
+    <!--Use mailto: inside the href attribute to create a link that opens the user's email program (to let them send a new email):-->
+    <h2>Link to an Email Address</h2>
+    <p>To create a link that opens in the user's email program (to let them send a new email), use mailto: inside the href attribute:</p>
+    <p><a href="mailto:cinthiakstg@gmail.com">Manda un mail a mi email personal</a></p>
+
+
+    <!--Button as a Link-->
+    <!--To use an HTML button as a link, you have to add some JavaScript code.
+    JavaScript allows you to specify what happens at certain events, 
+    such as a click of a button:-->
+    <h2>Button as a Links</h2>
+    <p>Click the button to go to the HTML tutorial.</p>
+    <button onclick="document.location.href='https://github.com/cstgar'">Visita mi Github a traves de un boton</button>
+
+    <!--Link Titles-->
+    <!--The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.-->
+    <h2>Link Titles</h2>
+    <p>The title attribute specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+    <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+
+    <!--Luego se realiza el Exercise: HTML Links-->
+</body>
+</html>
